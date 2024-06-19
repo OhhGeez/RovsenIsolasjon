@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romvsen Isolasjon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Romvsen Isolasjon</h1>
+        <nav>
+            <ul>
+                <li><a href="#concept">Konsept</a></li>
+                <li><a href="#how-it-works">Hvordan det virker</a></li>
+                <li><a href="#experiences">Erfaringer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="concept">
+            <h2>Konsept</h2>
+            <p><strong>Romvsen Isolasjon</strong> er et spennende space shooter roguelike spill som tar spilleren med på en reise gjennom det uendelige rommet. Spilleren møter en hær av fremmede romvesener som må beseires for å kunne gå videre til neste nivå.</p>
+            <ul>
+                <li><strong>Space shooter roguelike:</strong> Spillet kombinerer elementer fra klassiske space shooters med roguelike-sjangeren, som innebærer tilfeldige nivåer og permanente død.</li>
+                <li><strong>Hær av romvesener:</strong> Spilleren må bekjempe forskjellige typer romvesener med unike angrepsmønstre og strategier.</li>
+                <li><strong>Power-ups:</strong> Når romvesener blir beseiret, dropper de power-ups som kan øke spillerens styrke, hastighet, eller gi nye våpen.</li>
+                <li><strong>Tilfeldige nivåer:</strong> Hvert nivå genereres tilfeldig, noe som gir en unik opplevelse hver gang du spiller.</li>
+                <li><strong>Fartsfylt action:</strong> Intens og rask gameplay som holder spilleren på tå hev.</li>
+            </ul>
+        </section>
+        <section id="how-it-works">
+            <h2>Hvordan det virker</h2>
+            <h3>Modell - View - Controller (MVC)</h3>
+            <p>Spillet er bygget ved hjelp av MVC-arkitekturen, som deler opp koden i tre separate deler:</p>
+            <ul>
+                <li><strong>Modell:</strong> Modellen inneholder selve spillet. Alle karakterene, nivåene, og spilllogikken blir definert her. Modellen inkluderer algoritmer for å generere tilfeldige nivåer, bestemme romveseners bevegelser, og simulere fysikken bak karakterbevegelsene.</li>
+                <li><strong>Kontroller:</strong> Kontrolleren tar seg av spillerens input og gir denne videre til modellen. For eksempel håndterer kontrolleren at 'w' får spilleren til å bevege seg oppover.</li>
+                <li><strong>View:</strong> View er ansvarlig for å tegne en representasjon av modellen på skjermen. Det fungerer som et "kamera" som tar bilder inne i spillverdenen og sender disse bildene til skjermen.</li>
+            </ul>
+            <h3>Teknologi</h3>
+            <ul>
+                <li><strong>Programmeringsspråk:</strong> Spillet er utviklet i C++ for høy ytelse og kontroll.</li>
+                <li><strong>Grafikkmotor:</strong> Vi bruker Unity for å håndtere grafikken og fysikken i spillet.</li>
+                <li><strong>AI:</strong> Avanserte AI-algoritmer bestemmer hvordan romvesener oppfører seg og reagerer på spilleren.</li>
+                <li><strong>Lyd:</strong> Egendefinerte lydeffekter og musikk for å skape en engasjerende spillopplevelse.</li>
+            </ul>
+        </section>
+        <section id="experiences">
+            <h2>Erfaringer</h2>
+            <p>Gjennom utviklingen av Romvsen Isolasjon har vi lært mye. Her er noen av våre nøkkelerfaringer:</p>
+            <ul>
+                <li><strong>Viktig å jobbe jevnlig:</strong> Vi oppdaget at det er viktig å jobbe litt hver uke i stedet for å utsette alt til tidsfrister nærmer seg. Dette hjelper med å unngå stress og sikrer en jevn fremdrift.</li>
+                <li><strong>Balanse mellom grundig kode og rask utvikling:</strong> Det er essensielt å vite når man skal skrive grundig, velstrukturert kode og når man bare skal få noe til å fungere. Noen ganger er det viktig å prioritere framdrift, mens andre ganger må man sørge for at koden er robust og vedlikeholdbar.</li>
+                <li><strong>Samarbeid er gøy:</strong> Å jobbe sammen på et prosjekt har vært en svært givende opplevelse. Samarbeid har ikke bare forbedret sluttproduktet, men også gjort utviklingsprosessen mer moro og inspirerende.</li>
+                <li><strong>Iterativ utvikling:</strong> Vi har funnet at en iterativ tilnærming, hvor vi kontinuerlig forbedrer og tester spillet, fører til et bedre sluttprodukt.</li>
+                <li><strong>Brukerfeedback:</strong> Å inkludere tilbakemeldinger fra spillere tidlig i utviklingsprosessen har hjulpet oss med å justere og forbedre spillet basert på faktisk brukeropplevelse.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Romvsen Isolasjon Team</p>
+    </footer>
+</body>
+</html>
